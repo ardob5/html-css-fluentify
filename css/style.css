@@ -1,0 +1,96 @@
+/* Regole generali CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SEZIONE HEADER */
+header {
+  /* DEBUG */
+  background-color: red;
+  height: 500px;
+  /* end DEBUG */
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  /* DEBUG */
+  background-color: green;
+  /* end DEBUG */
+}
+
+.logo {
+  /* DEBUG */
+  background color: yellow;
+  height: 50px;
+  /* end DEBUG */
+  float: left;
+}
+
+/* SEZIONE MAIN */
+main {
+  /* DEBUG */
+  background-color: red;
+  height: 1500px;
+  /* end DEBUG */
+}
+
+.row1{
+  /* DEBUG */
+  background-color: yellow;
+  height: 200px;
+  /* end DEBUG */
+}
+
+/* SEZIONE FOOTER */
+footer {
+  /* DEBUG */
+  background-color: grey;
+  /* end DEBUG */
+  padding: 20px;
+}
+
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#div-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.faq {
+  /* DEBUG */
+  background-color: blue;
+  height: 150px;
+  /* end DEBUG */
+}
+
+#div-footer {
+  /* DEBUG */
+  background-color: blue;
+  height: 150px;
+  /* end DEBUG */
+}
+
+.azienda, .copyright {
+  /* DEBUG */
+  background-color: yellow;
+  height: 200px;
+  /* end DEBUG */
+  width: 50%;
+  float: left;
+  padding: 5%;
+}
