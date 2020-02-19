@@ -90,8 +90,8 @@ button {
 }
 
 #login {
-  background-color: #0a0382;
-  border: 1px;
+  background-color: rgba(255, 0, 0, 0.0);
+  border: solid lightblue 2px;
 }
 
 button, #login:hover {
@@ -118,17 +118,136 @@ h1 {
 /* SEZIONE MAIN */
 main {
   /* DEBUG */
-  background-color: red;
   height: 1500px;
   /* end DEBUG */
 }
 
 .row1 {
-  /* DEBUG */
-  background-color: yellow;
-  height: 200px;
-  /* end DEBUG */
+  background-color: #f9f9f9;
+  padding: 30px 15%;
+  text-align: center;
+  line-height: 20px;
 }
+
+.row1 p {
+  opacity: 0.5;
+}
+
+/* SEZIONE 1 MID AREA */
+.mid-section1 {
+  margin-bottom: 80px;
+}
+
+.mid-section1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section1-block {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+
+.section1-block > img, h4, p {
+  padding: 10px;
+}
+
+.section1-block > img {
+  height: 168px;
+}
+
+.section1-block > h4 {
+  color: #7fb802;
+}
+
+.section1-block > hr {
+  margin: auto;
+  width: 8%;
+}
+
+/* SEZIONE 2 MID AREA */
+.mid-section2{
+  border-top: 1px solid black;
+}
+
+.mid-section2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section2-block {
+  width: 50%;
+  text-align: left;
+  float: left;
+  padding: 40px;
+  margin-top: 5%;
+}
+
+.section2-block > img {
+  padding-left: 80px;
+}
+
+.section2-block > h2 {
+  padding-top: 80px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+#test {
+  padding-left: 10px;
+  color: #98c8f8;
+}
+
+.row2 {
+  background-color: #f9f9f9;
+  padding: 30px 15%;
+  line-height: 20px;
+}
+
+.row2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 h3 {
+  padding-top: 5px;
+  font-size: 1.5em;
+  float: left;
+}
+
+.plan {
+  float: right;
+}
+
+.plan > button {
+  display: inline-block;
+}
+
+p > span {
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SEZIONE FOOTER */
 footer:after {
@@ -225,5 +344,5 @@ strong span {
   opacity: 0.5;
   font-size: 15px;
   font-weight: bold;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
 }
