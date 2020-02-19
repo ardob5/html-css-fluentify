@@ -25,6 +25,7 @@ header::after {
   clear: both;
 }
 
+/* SEZIONE NAVBAR */
 .nav-row {
   padding: 15px;
   margin-bottom: 25px;
@@ -37,7 +38,7 @@ header::after {
 }
 
 #logo{
-  width: 55%;
+  width: 50%;
   padding-left: 25px;
 }
 
@@ -46,8 +47,6 @@ header::after {
   height: 50px;
   /* end DEBUG */
   float: left;
-  /* background-image: url("../img/logo.png");
-  background-size: cover; */
   padding: 0 15px;
   width: 20%;
   text-align: center;
@@ -56,7 +55,8 @@ header::after {
 .navbar {
   padding-top: 15px;
   float: left;
-  width: 40%;
+  width: 30%;
+  margin-left: 15px;
 }
 
 .navbar2 {
@@ -88,7 +88,8 @@ button{
   border-radius: 10px;
   color: #FFF;
   font-size: 14px;
-  padding: 5px 20px;;
+  padding: 5px 20px;
+  margin-right: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -101,6 +102,23 @@ button{
 
 button, #login:hover{
   cursor: pointer;
+}
+
+.home {
+  width: 100%;
+  padding: 30px 80px;
+}
+
+h1{
+  color: #FFF;
+  font-size: 3em;
+  padding: 30px 30px;
+}
+
+#project{
+  display: block;
+  margin-top: 30px;
+  padding: 10px 13px;
 }
 
 /* SEZIONE MAIN */
@@ -119,13 +137,6 @@ main {
 }
 
 /* SEZIONE FOOTER */
-footer {
-  /* DEBUG */
-  background-color: grey;
-  /* end DEBUG */
-  padding: 20px;
-}
-
 footer:after {
   content: "";
   display: table;
@@ -138,23 +149,37 @@ footer:after {
   clear: both;
 }
 
-.faq {
-  /* DEBUG */
-  background-color: blue;
-  height: 150px;
-  /* end DEBUG */
+.section1-footer {
+  background-color: #0f335a;
 }
 
-#div-footer {
+.block-footer{
+  padding: 40px 80px;
+}
+
+.block-footer h4, .block-footer h6{
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.block-footer h6{
+  opacity: 0.5;
+}
+
+#faqs{
+  color: #f0ad4e;
+}
+
+.section2-footer {
   /* DEBUG */
-  background-color: blue;
   height: 150px;
   /* end DEBUG */
+  background-color: #17406b;
 }
 
 .azienda, .copyright {
   /* DEBUG */
-  background-color: yellow;
   height: 200px;
   /* end DEBUG */
   width: 50%;
