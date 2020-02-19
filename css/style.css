@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* SEZIONE HEADER */
 header {
   /* DEBUG */
-  background-color: red;
   height: 500px;
   /* end DEBUG */
   width: 100%;
@@ -22,18 +25,75 @@ header::after {
   clear: both;
 }
 
-nav {
-  /* DEBUG */
-  background-color: green;
-  /* end DEBUG */
+.nav-row {
+  padding: 15px;
 }
 
-.logo {
+.nav-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-logo {
   /* DEBUG */
-  background color: yellow;
   height: 50px;
   /* end DEBUG */
   float: left;
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  padding: 0 15px;
+  width: 20%;
+}
+
+.navbar {
+  padding-top: 15px;
+  float: left;
+  width: 40%;
+}
+
+.navbar2 {
+  padding-top: 15px;
+  float: right;
+  width: 30%;
+}
+
+.navbar a, .navbar2 a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.navbar a:hover{
+  color: #f7bd1e;
+}
+
+#tutor{
+  color: grey;
+}
+
+button{
+  background-color: #7fb802;
+  border: none;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 14px;
+  padding: 5px 20px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#login{
+  background-color: #0a0382;
+  border: 1px;
+}
+
+button, #login:hover{
+  cursor: pointer;
 }
 
 /* SEZIONE MAIN */
