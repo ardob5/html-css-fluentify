@@ -148,7 +148,7 @@ footer:after {
 }
 
 .block-footer {
-  padding: 40px 80px;
+  padding: 40px 151px;
 }
 
 .block-footer h4, .block-footer h6 {
@@ -225,5 +225,5 @@ strong span {
   opacity: 0.5;
   font-size: 15px;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1px; 
 }
