@@ -116,11 +116,6 @@ h1 {
 }
 
 /* SEZIONE MAIN */
-main {
-  /* DEBUG */
-  height: 1500px;
-  /* end DEBUG */
-}
 
 .row1 {
   background-color: #f9f9f9;
@@ -214,7 +209,7 @@ main {
 }
 
 .row2 h3 {
-  padding-top: 5px;
+  padding-top: 10px;
   font-size: 1.5em;
   float: left;
 }
@@ -231,9 +226,93 @@ p > span {
   margin: 0 20px;
 }
 
+/* SEZIONE 3 MID AREA */
+.mid-section3 {
+  width: 100%;
+  height: auto;
+}
 
+.mid-section3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.section3-block {
+  background-color: #0f335a;
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+  padding: 28px;
+}
 
+.section3-block h4 {
+  font-size: 1.8em;
+  color: #FFF;
+}
+
+.section3-block img {
+  width: 100%;
+  height: auto;
+  padding-right: 280px;
+}
+
+h4 span {
+  color: #f0ad4e;
+}
+
+#lessons {
+  padding-top: 173px;
+}
+
+.mid-section3 p {
+  color: #FFF;
+  opacity: 0.5;
+}
+
+.mid-section3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* SEZIONE 4=2 MID AREA */
+.p-inline2 p {
+  width: 50%;
+  display: inline-block;
+  color: #a7d0f9;
+}
+
+.p-inline1, .p-inline2{
+  padding top: 40px;
+}
+
+.p-inline1 {
+  padding-top: 20px;
+  float: left;
+  width: 30%;
+}
+
+.p-inline2 {
+  text-align: center;
+  float: right;
+  width: 70%;
+}
+
+/* SEZIONE 5 MID AREA */
+.mid-section5 {
+  border-top: 1px solid #000;
+}
+
+.section5-block {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+h2 span {
+  color: #7fb802;
+}
 
 
 
