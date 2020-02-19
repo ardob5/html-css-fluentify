@@ -27,6 +27,7 @@ header::after {
 
 .nav-row {
   padding: 15px;
+  margin-bottom: 25px;
 }
 
 .nav-row::after {
@@ -35,15 +36,21 @@ header::after {
   clear: both;
 }
 
+#logo{
+  width: 55%;
+  padding-left: 25px;
+}
+
 .nav-logo {
   /* DEBUG */
   height: 50px;
   /* end DEBUG */
   float: left;
-  background-image: url("../img/logo.png");
-  background-size: cover;
+  /* background-image: url("../img/logo.png");
+  background-size: cover; */
   padding: 0 15px;
   width: 20%;
+  text-align: center;
 }
 
 .navbar {
