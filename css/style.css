@@ -11,9 +11,6 @@ body {
 
 /* SEZIONE HEADER */
 header {
-  /* DEBUG */
-  height: 500px;
-  /* end DEBUG */
   width: 100%;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -37,15 +34,12 @@ header::after {
   clear: both;
 }
 
-#logo{
+#logo {
   width: 50%;
   padding-left: 25px;
 }
 
 .nav-logo {
-  /* DEBUG */
-  height: 50px;
-  /* end DEBUG */
   float: left;
   padding: 0 15px;
   width: 20%;
@@ -65,7 +59,7 @@ header::after {
   width: 30%;
 }
 
-.navbar a, .navbar2 a{
+.navbar a, .navbar2 a {
   text-decoration: none;
   color: #FFF;
   font-size: 10px;
@@ -74,15 +68,15 @@ header::after {
   display: inline-block;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: #f7bd1e;
 }
 
-#tutor{
+#tutor {
   color: grey;
 }
 
-button{
+button {
   background-color: #7fb802;
   border: none;
   border-radius: 10px;
@@ -95,12 +89,12 @@ button{
   display: inline-block;
 }
 
-#login{
+#login {
   background-color: #0a0382;
   border: 1px;
 }
 
-button, #login:hover{
+button, #login:hover {
   cursor: pointer;
 }
 
@@ -109,13 +103,13 @@ button, #login:hover{
   padding: 30px 80px;
 }
 
-h1{
+h1 {
   color: #FFF;
   font-size: 3em;
   padding: 30px 30px;
 }
 
-#project{
+#project {
   display: block;
   margin-top: 30px;
   padding: 10px 13px;
@@ -129,7 +123,7 @@ main {
   /* end DEBUG */
 }
 
-.row1{
+.row1 {
   /* DEBUG */
   background-color: yellow;
   height: 200px;
@@ -153,36 +147,83 @@ footer:after {
   background-color: #0f335a;
 }
 
-.block-footer{
+.block-footer {
   padding: 40px 80px;
 }
 
-.block-footer h4, .block-footer h6{
+.block-footer h4, .block-footer h6 {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 30px;
   color: #FFF;
 }
 
-.block-footer h6{
+.block-footer h6 {
+  font-size: 20px;
   opacity: 0.5;
 }
 
-#faqs{
+#faqs {
   color: #f0ad4e;
+  text-decoration: none;
 }
 
 .section2-footer {
-  /* DEBUG */
-  height: 150px;
-  /* end DEBUG */
   background-color: #17406b;
 }
 
+.section2-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .azienda, .copyright {
-  /* DEBUG */
-  height: 200px;
-  /* end DEBUG */
   width: 50%;
   float: left;
-  padding: 5%;
+  padding: 40px 10%;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #FFF;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: #FFF;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: #FFF;
+}
+
+strong span {
+  font-size: 20px;
+}
+
+.copyright p {
+  color: #FFF;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
